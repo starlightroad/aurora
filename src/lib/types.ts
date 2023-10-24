@@ -7,3 +7,5 @@ export type SideBarNavItem = {
   href: string;
   icon?: string;
 };
+
+export type SubmitHandler<T = any> = (data: T) => void;
